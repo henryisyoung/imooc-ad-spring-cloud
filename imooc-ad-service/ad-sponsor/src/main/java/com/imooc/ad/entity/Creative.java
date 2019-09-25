@@ -37,7 +37,7 @@ public class Creative {
     private Long size;
 
     @Column(name = "duration", nullable = false)
-    private Long duration;
+    private Integer duration;
 
     @Column(name = "audit_status", nullable = false)
     private Integer auditStatus;
